@@ -53,6 +53,10 @@ public class Factorial {
         break;
       index--;
     }
+
+    if (result == null) {
+      result = BigInteger.ONE;
+    }
     
     for (int i = index + 1; i <= number; i++) {
       
